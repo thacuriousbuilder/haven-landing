@@ -10,6 +10,10 @@ interface WaitlistSignupData {
 }
 
 export async function submitWaitlistSignup(data: WaitlistSignupData) {
+  if (!supabase) {
+    throw new Error('Supabase is not configured')
+  }
+
   try {
     console.log('📝 Submitting waitlist signup:', data.email);
     
