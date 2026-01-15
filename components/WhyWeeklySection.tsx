@@ -202,10 +202,8 @@ export default function WhyWeeklySection() {
             </p>
           </div>
           </div>
-
         </div>
 
-      \
     </section>
   );
 }
