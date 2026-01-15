@@ -1,26 +1,72 @@
+
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Primary Brand Colors */
+  --color-haven-orange: #ef7828;
+  --color-haven-teal: #206e6b;
+  --color-haven-teal-dark: #1a5956;
+  --color-haven-graphite: #504d47;
+  --color-haven-steel: #687c88;
+  --color-haven-black: #000000;  
+
+  /* Background Colors */
+  --color-haven-white: #ffffff;
+  --color-haven-cream: #f5f3ef;
+
+  /* Border & UI Colors */
+  --color-haven-border: #e5e3df;
+  --color-haven-muted: #999896;
+
+  /* Utility Colors */
+  --color-haven-error: #dc2626;
+  
+  /* Opacity variants - for use with arbitrary values */
+  --color-haven-orange-light: rgba(239, 120, 40, 0.1);
+  --color-haven-orange-border: rgba(239, 120, 40, 0.15);
+  --color-haven-teal-light: rgba(32, 110, 107, 0.1);
+  --color-haven-teal-light-15: rgba(32, 110, 107, 0.15);
+  --color-haven-glass: rgba(255, 255, 255, 0.15);
+  --color-haven-glass-20: rgba(255, 255, 255, 0.2);
+
+  /* Phone mockup colors */
+  --color-neutral-900: #171717;
+  --color-neutral-100: #f5f5f5;
+  --color-orange-300: #fdba74;
+  --color-orange-400: #fb923c;
+  --color-orange-50: #fff7ed;
+  --color-neutral-300: #d4d4d4;
+
+  /* Fonts */
+  --font-inter: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-manrope: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  
+  --font-family-sans: var(--font-inter);
+  --font-family-heading: var(--font-manrope);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    background-color: var(--color-haven-white);
+    color: var(--color-haven-graphite);
+    font-family: var(--font-family-sans);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-heading);
+    color: var(--color-haven-graphite);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .text-gradient-teal {
+    background: linear-gradient(135deg, var(--color-haven-teal) 0%, var(--color-haven-teal-dark) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .bg-gradient-teal {
+    background: linear-gradient(135deg, var(--color-haven-teal) 0%, var(--color-haven-teal-dark) 100%);
+  }
 }
