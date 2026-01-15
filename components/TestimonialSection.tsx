@@ -5,19 +5,19 @@ export default function TestimonialsSection() {
         rating: 5,
         quote: "Thinking weekly instead of daily completely changed how I approach food.",
         name: "Sarah Martinez",
-        detail: "Using HAVEN for 3 months, lost 12lbs"
+        detail: "Using HAVEN for 1 months, lost 10lbs"
       },
       {
         rating: 5,
         quote: "HAVEN feels more practical than other trackers I’ve used. Weekly planning makes it easier to stay consistent around meetings, travel, and social dinners.",
         name: "James Chen",
-        detail: "Using HAVEN for 4 months, lost 10lbs"
+        detail: "Using HAVEN for 2 months, lost 12lbs"
       },
       {
         rating: 5,
         quote: "The coaching option was worth every penny. Having someone there to check my food logs throughout the week helped me stay consistent and reach my goals faster.",
         name: "Roki Kaba",
-        detail: "Using HAVEN for 4 months, gained 5lbs of muscle"
+        detail: "Using HAVEN for 2 months, gained 3lbs of muscle"
       }
     ];
   

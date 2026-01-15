@@ -26,7 +26,7 @@ export default function CoachingSection() {
 
                 {/* Description */}
                 <p className="text-white/90 text-lg leading-relaxed mb-8">
-                  Pair HAVEN&apos;s weekly tracking with expert guidance. Get regular check-ins, personalized strategies, and human support to stay consistent and reach your goals faster.
+                  Pair HAVEN&apos;s weekly tracking with expert guidance. Get regular check-ins, personalized strategies, nutritional information and human support to stay consistent and reach your goals faster.
                 </p>
 
                 {/* CTA Button */}

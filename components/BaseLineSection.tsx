@@ -21,7 +21,7 @@ export default function BaselineSection() {
               The 7-Day Baseline
             </h2>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              Before setting goals, HAVEN learns <span className="text-haven-yellow font-semibold">your</span> eating pattern. No judgment, no limits—just understanding.
+              Before setting goals, HAVEN learns <span className="text-haven-yellow font-semibold">your</span> eating pattern. No judgment, no limits,just understanding.
             </p>
           </div>
   
@@ -30,7 +30,7 @@ export default function BaselineSection() {
             {/* Left Column - Baseline Tracker Card */}
             <div className="bg-white rounded-2xl p-6 lg:p-8 shadow-xl">
               <h3 className="text-lg font-bold text-haven-graphite mb-6">
-                HAVEN is listening, not coaching
+                HAVEN is learning, not judging
               </h3>
               
               {/* Progress bars */}

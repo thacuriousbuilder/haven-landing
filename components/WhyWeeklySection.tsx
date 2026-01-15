@@ -154,9 +154,7 @@ export default function WhyWeeklySection() {
               </p>
             </div>
           </div>
-        </div>
-
-        {/* What This Means for You - Dark Card */}
+            {/* What This Means for You - Dark Card */}
         <div className="max-w-5xl mx-auto mt-8">
           <div className="bg-haven-black rounded-2xl p-6 md:p-8 lg:p-10">
             <h3 className="text-xl md:text-2xl font-bold text-white text-center mb-6 md:mb-8">
@@ -204,6 +202,10 @@ export default function WhyWeeklySection() {
             </p>
           </div>
           </div>
+
+        </div>
+
+      \
     </section>
   );
 }

@@ -53,14 +53,14 @@ export default function HeroSection() {
               <div className="flex items-center gap-6 pt-4 text-white/80">
                 <div className="flex -space-x-2">
                   <Image 
-                    src="/images/IMG_2254.png" 
+                    src="/images/earlyUser3.jpg" 
                     alt="User avatar"
                     width={100}
                     height={100}
                     className="w-10 h-10 rounded-full border-2 border-white object-cover"
                   />
                   <Image 
-                    src="/images/IMG_2454.jpg" 
+                    src="/images/earlyUser2.jpg" 
                     alt="User avatar"
                     width={100}
                     height={100}
