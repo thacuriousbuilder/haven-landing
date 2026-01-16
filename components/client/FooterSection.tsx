@@ -1,4 +1,5 @@
 
+import Link from "next/link";
 export default function FooterSection() {
     return (
       <footer className="bg-haven-black text-white">
@@ -18,14 +19,14 @@ export default function FooterSection() {
               <h4 className="font-bold text-lg mb-4 text-white">Product</h4>
               <ul className="space-y-3">
                 <li>
-                  <a href="#features" className="text-white/70 hover:text-white transition-colors">
-                    Features
-                  </a>
+                  <Link href="/" className="text-white/70 hover:text-white transition-colors">
+                    Individuals
+                  </Link>
                 </li>
                 <li>
-                  <a href="#coaching" className="text-white/70 hover:text-white transition-colors">
+                  <Link href="/coach" className="text-white/70 hover:text-white transition-colors">
                     Coaching
-                  </a>
+                  </Link>
                 </li>
                 {/* <li>
                   <a href="#pricing" className="text-white/70 hover:text-white transition-colors">
@@ -40,9 +41,9 @@ export default function FooterSection() {
               <h4 className="font-bold text-lg mb-4 text-white">Company</h4>
               <ul className="space-y-3">
                 <li>
-                  <a href="" className="text-white/70 hover:text-white transition-colors">
+                  <Link href="" className="text-white/70 hover:text-white transition-colors">
                     About
-                  </a>
+                  </Link>
                 </li>
                 {/* <li>
                   <a href="#blog" className="text-white/70 hover:text-white transition-colors">
@@ -62,9 +63,9 @@ export default function FooterSection() {
               <h4 className="font-bold text-lg mb-4 text-white">Legal</h4>
               <ul className="space-y-3">
                 <li>
-                  <a href="" className="text-white/70 hover:text-white transition-colors">
+                  <Link href="" className="text-white/70 hover:text-white transition-colors">
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 {/* <li>
                   <a href="#terms" className="text-white/70 hover:text-white transition-colors">
