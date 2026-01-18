@@ -22,26 +22,26 @@ export default function TestimonialsSection() {
     ];
   
     return (
-      <section className="py-20 lg:py-32 bg-white">
+      <section className="py-20 lg:py-32 bg-haven-cream">
         <div className="container mx-auto px-4 lg:px-8">
-          {/* Section Header */}
+          
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-haven-teal mb-4">
               Real people, real progress
             </h2>
             <p className="text-xl text-haven-steel">
-              Join thousands who&apos;ve reached their goals with HAVEN&apos;s weekly approach
+              Join HAVEN and start reaching your goals!
             </p>
           </div>
   
-          {/* Testimonial Cards Grid */}
+         
           <div className="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-6xl mx-auto">
             {testimonials.map((testimonial, index) => (
               <div 
                 key={index}
-                className="bg-haven-cream rounded-2xl p-6 lg:p-8 border border-haven-border hover:shadow-lg transition-shadow"
+                className="bg-haven-white rounded-2xl p-6 lg:p-8 border border-haven-border hover:shadow-lg transition-shadow"
               >
-                {/* Star Rating */}
+               
                 <div className="flex gap-1 mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
                     <svg 
@@ -55,12 +55,12 @@ export default function TestimonialsSection() {
                   ))}
                 </div>
   
-                {/* Quote */}
+               
                 <p className="text-haven-graphite leading-relaxed mb-6">
                   &quot;{testimonial.quote}&quot;
                 </p>
   
-                {/* User Info */}
+                
                 <div className="pt-4 border-t border-haven-border">
                   <p className="font-bold text-haven-graphite">
                     {testimonial.name}

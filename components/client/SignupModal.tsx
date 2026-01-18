@@ -67,15 +67,15 @@ export default function SignupModal({ isOpen, onClose }: SignupModalProps) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-      {/* Backdrop */}
+ 
       <div 
         className="absolute inset-0 bg-black/60 backdrop-blur-sm"
         onClick={onClose}
       ></div>
 
-      {/* Modal */}
+    
       <div className="relative bg-white rounded-3xl p-6 lg:p-8 max-w-md w-full shadow-2xl max-h-[90vh] overflow-y-auto">
-        {/* Close Button */}
+       
         <button
           onClick={onClose}
           className="absolute top-4 right-4 text-haven-steel hover:text-haven-graphite transition-colors"
@@ -86,7 +86,7 @@ export default function SignupModal({ isOpen, onClose }: SignupModalProps) {
           </svg>
         </button>
 
-        {/* Success State */}
+      
         {success ? (
           <div className="text-center py-8">
             <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -99,7 +99,7 @@ export default function SignupModal({ isOpen, onClose }: SignupModalProps) {
           </div>
         ) : (
           <>
-            {/* Modal Header */}
+           
             <div className="mb-6">
               <h3 className="text-2xl lg:text-3xl font-bold text-haven-teal mb-2">
                 Join the Waitlist
@@ -109,16 +109,15 @@ export default function SignupModal({ isOpen, onClose }: SignupModalProps) {
               </p>
             </div>
 
-            {/* Error Message */}
             {error && (
               <div className="mb-4 bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-xl text-sm">
                 {error}
               </div>
             )}
 
-            {/* Form */}
+        
             <form onSubmit={handleSubmit} className="space-y-4">
-              {/* First Name & Last Name Row */}
+             
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <label htmlFor="firstName" className="block text-sm font-medium text-haven-graphite mb-2">
@@ -152,7 +151,7 @@ export default function SignupModal({ isOpen, onClose }: SignupModalProps) {
                 </div>
               </div>
 
-              {/* Email */}
+             
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-haven-graphite mb-2">
                   Email
@@ -169,7 +168,7 @@ export default function SignupModal({ isOpen, onClose }: SignupModalProps) {
                 />
               </div>
 
-              {/* Goal */}
+              
               <div>
                 <label htmlFor="goal" className="block text-sm font-medium text-haven-graphite mb-2">
                   What&apos;s your primary goal?
@@ -191,7 +190,7 @@ export default function SignupModal({ isOpen, onClose }: SignupModalProps) {
                 </select>
               </div>
 
-              {/* Keep me updated checkbox */}
+              
               <div className="flex items-start gap-3">
                 <input
                   type="checkbox"
@@ -206,7 +205,7 @@ export default function SignupModal({ isOpen, onClose }: SignupModalProps) {
                 </label>
               </div>
 
-              {/* Submit Button */}
+             
               <button
                 type="submit"
                 disabled={isSubmitting}
@@ -216,7 +215,7 @@ export default function SignupModal({ isOpen, onClose }: SignupModalProps) {
               </button>
             </form>
 
-            {/* Privacy note */}
+            
             <p className="text-xs text-haven-steel text-center mt-4">
               We respect your privacy. Unsubscribe anytime.
             </p>

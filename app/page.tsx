@@ -1,13 +1,13 @@
 
-import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
-import WhyWeeklySection from "@/components/WhyWeeklySection";
-import BaselineSection from "@/components/BaseLineSection";
-import FeaturesSection from "@/components/FeaturesSection";
-import CoachingSection from "@/components/CoachingSection";
-import TestimonialsSection from "@/components/TestimonialSection";
-import FinalCTASection from "@/components/FinalSection";
-import FooterSection from "@/components/FooterSection";
+import Header from "@/components/client/Header";
+import HeroSection from "@/components/client/HeroSection";
+import WhyWeeklySection from "@/components/client/WhyWeeklySection";
+import BaselineSection from "@/components/client/BaseLineSection";
+import FeaturesSection from "@/components/client/FeaturesSection";
+import CoachingSection from "@/components/client/CoachingSection";
+import TestimonialsSection from "@/components/client/TestimonialSection";
+import FinalCTASection from "@/components/client/FinalSection";
+import FooterSection from "@/components/client/FooterSection";
 
 export default function Home() {
   return (
