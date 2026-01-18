@@ -3,9 +3,8 @@ import Image from "next/image";
 
 export default function FeaturesSection() {
   return (
-    <section id="features" className="py-20 lg:py-32 bg-white">
+    <section id="features" className="py-20 lg:py-32 bg-haven-cream">
       <div className="container mx-auto px-4 lg:px-8">
-        {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-haven-teal mb-4">
             What does HAVEN include?
@@ -15,15 +14,15 @@ export default function FeaturesSection() {
           </p>
         </div>
 
-        {/* Two Column Layout */}
+       
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-32 xl:gap-60 items-center max-w-6xl mx-auto">
-          {/* Left Column - Phone Mockup */}
+    
           <div className="relative flex justify-center lg:justify-end">
             <div className="relative w-full max-w-sm">
-              {/* Phone frame with shadow */}
+           
               <div className="bg-neutral-900 rounded-[3rem] p-3 shadow-2xl">
                 <div className="bg-white rounded-[2.5rem] aspect-[9/19] overflow-hidden flex items-center justify-center p-4">
-                  {/* FoodLog SVG - same as hero */}
+                
                   <Image 
                     src="/images/Plan.svg" 
                     alt="HAVEN food logging interface"
@@ -36,9 +35,8 @@ export default function FeaturesSection() {
             </div>
           </div>
 
-          {/* Right Column - Feature List */}
+         
           <div className="space-y-6">
-            {/* Feature 1: Track with Picture */}
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
                 <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -56,7 +54,6 @@ export default function FeaturesSection() {
               </div>
             </div>
 
-            {/* Feature 2: Food Database */}
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-haven-teal/10 rounded-xl flex items-center justify-center flex-shrink-0">
                 <svg className="w-6 h-6 text-haven-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -73,7 +70,7 @@ export default function FeaturesSection() {
               </div>
             </div>
 
-            {/* Feature 3: Plan Cheat Days */}
+            
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
                 <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -90,7 +87,7 @@ export default function FeaturesSection() {
               </div>
             </div>
 
-            {/* Feature 4: Simple Progress Tracking */}
+            
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
                 <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -107,7 +104,6 @@ export default function FeaturesSection() {
               </div>
             </div>
 
-            {/* Feature 5: Accountability Coaching (Premium) */}
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-haven-orange/10 rounded-xl flex items-center justify-center flex-shrink-0">
                 <svg className="w-6 h-6 text-haven-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">

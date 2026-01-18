@@ -2,14 +2,12 @@
 export default function BaselineSection() {
     return (
       <section id="how-it-works" className="py-20 lg:py-32 bg-gradient-to-br from-haven-teal to-haven-teal-dark relative overflow-hidden">
-        {/* Background decorative elements */}
         <div className="absolute inset-0 opacity-5">
           <div className="absolute top-40 left-20 w-96 h-96 bg-white rounded-full blur-3xl"></div>
           <div className="absolute bottom-40 right-20 w-96 h-96 bg-white rounded-full blur-3xl"></div>
         </div>
   
         <div className="container mx-auto px-4 lg:px-8 relative">
-          {/* Section Header */}
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium mb-6">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -25,15 +23,14 @@ export default function BaselineSection() {
             </p>
           </div>
   
-          {/* Two Column Layout */}
+          
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start max-w-6xl mx-auto mb-12">
-            {/* Left Column - Baseline Tracker Card */}
             <div className="bg-white rounded-2xl p-6 lg:p-8 shadow-xl">
               <h3 className="text-lg font-bold text-haven-graphite mb-6">
                 HAVEN is learning, not judging
               </h3>
               
-              {/* Progress bars */}
+            
               <div className="space-y-4 mb-6">
                 {[1, 2, 3, 4, 5, 6].map((day) => (
                   <div key={day} className="flex items-center gap-4">
@@ -45,7 +42,7 @@ export default function BaselineSection() {
                   </div>
                 ))}
                 
-                {/* Day 7 - Active/Complete */}
+               
                 <div className="flex items-center gap-4">
                   <span className="bg-haven-orange text-white font-bold w-8 h-8 rounded-full flex items-center justify-center text-sm">7</span>
                   <div className="flex-1 h-3 bg-orange-100 rounded-full overflow-hidden">
@@ -55,7 +52,7 @@ export default function BaselineSection() {
                 </div>
               </div>
   
-              {/* Bottom note */}
+              
               <div className="bg-haven-orange/10 border border-haven-orange/20 rounded-xl p-4">
                 <p className="text-sm text-haven-graphite">
                   <span className="font-semibold">No limits.</span> No corrections. Just eat normally and log what feels comfortable.
@@ -63,7 +60,7 @@ export default function BaselineSection() {
               </div>
             </div>
   
-            {/* Right Column - Benefits */}
+           
             <div className="space-y-6">
               <div>
                 <h3 className="text-2xl font-bold text-white mb-3">
@@ -74,7 +71,7 @@ export default function BaselineSection() {
                 </p>
               </div>
   
-              {/* Traditional Apps Card */}
+             
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6">
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 bg-red-500/40 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -91,7 +88,7 @@ export default function BaselineSection() {
                 </div>
               </div>
   
-              {/* HAVEN's Approach Card */}
+             
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6">
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 bg-haven-cream/50 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -110,7 +107,7 @@ export default function BaselineSection() {
             </div>
           </div>
   
-          {/* Building Your Eating Fingerprint - Cream Card */}
+         
           <div className="max-w-6xl mx-auto bg-haven-white rounded-2xl p-8 lg:p-12">
             <div className="text-center mb-8">
               <h3 className="text-2xl lg:text-3xl font-bold text-haven-graphite mb-3">
@@ -121,9 +118,8 @@ export default function BaselineSection() {
               </p>
             </div>
   
-            {/* Three Metrics Cards */}
+          
             <div className="grid md:grid-cols-3 gap-6 mb-8">
-              {/* Daily & Weekly Patterns */}
               <div className="text-center">
                 <div className="w-16 h-16 bg-haven-teal/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-haven-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -136,7 +132,7 @@ export default function BaselineSection() {
                 </p>
               </div>
   
-              {/* Natural Variability */}
+              
               <div className="text-center">
                 <div className="w-16 h-16 bg-haven-teal/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-haven-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -149,7 +145,7 @@ export default function BaselineSection() {
                 </p>
               </div>
   
-              {/* Indulgence Points */}
+            
               <div className="text-center">
                 <div className="w-16 h-16 bg-haven-teal/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-haven-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -163,7 +159,7 @@ export default function BaselineSection() {
               </div>
             </div>
   
-            {/* This data becomes your foundation */}
+            
             <div className="bg-white rounded-xl p-6 border border-haven-border">
               <h4 className="text-center font-bold text-haven-graphite mb-4">
                 This data becomes your foundation:
@@ -182,7 +178,7 @@ export default function BaselineSection() {
             </div>
           </div>
   
-          {/* Bottom Badge */}
+         
           <div className="max-w-6xl mx-auto mt-8 flex justify-center">
             <div className="bg-haven-black text-white px-6 py-3 rounded-full flex items-center gap-3 shadow-lg">
               <svg className="w-5 h-5 text-red-400" fill="currentColor" viewBox="0 0 24 24">

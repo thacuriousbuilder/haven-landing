@@ -4,17 +4,21 @@ export default function FooterSection() {
     return (
       <footer className="bg-haven-black text-white">
         <div className="container mx-auto px-4 lg:px-8 py-8 lg:py-12">
-          {/* Main Footer Content */}
+          
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12 mb-12">
-            {/* Column 1: HAVEN Brand */}
+            
             <div className="col-span-2 md:col-span-1">
-              <h3 className="text-2xl font-bold mb-4 text-white">HAVEN</h3>
+              <h3 className="text-2xl font-bold mb-4 text-white">
+                <Link href="/">
+                  HAVEN
+                </Link>
+                </h3>
               <p className="text-white/70 leading-relaxed">
                 Weekly calorie tracking for sustainable progress and guilt-free living.
               </p>
             </div>
   
-            {/* Column 2: Product */}
+         
             <div>
               <h4 className="font-bold text-lg mb-4 text-white">Product</h4>
               <ul className="space-y-3">
@@ -36,7 +40,7 @@ export default function FooterSection() {
               </ul>
             </div>
   
-            {/* Column 3: Company */}
+        
             <div>
               <h4 className="font-bold text-lg mb-4 text-white">Company</h4>
               <ul className="space-y-3">
@@ -58,7 +62,7 @@ export default function FooterSection() {
               </ul>
             </div>
   
-            {/* Column 4: Legal */}
+            
             <div>
               <h4 className="font-bold text-lg mb-4 text-white">Legal</h4>
               <ul className="space-y-3">
@@ -81,7 +85,7 @@ export default function FooterSection() {
             </div>
           </div>
   
-          {/* Bottom Bar */}
+      
           <div className="pt-8 border-t border-haven-border flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-white/60 text-sm">
               © 2026 HAVEN. All rights reserved.
