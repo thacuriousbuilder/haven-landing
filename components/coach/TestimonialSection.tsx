@@ -10,13 +10,13 @@ export default function TestimonialsSection() {
     {
       rating: 5,
       quote: "Weekly summaries make it much easier to assess patterns and adherence. I can separate normal variability from habits that actually need adjusting.",
-      name: "James Chen, RD",
+      name: "Joshua Siegel, RD",
       detail: "Using HAVEN for 3 months"
     },    
     {
       rating: 5,
       quote: "Clients eat differently on training days, weekends, rest days. Seeing it all laid out weekly makes it easier to guide my clients.",
-      name: "Roki Kaba, PT",
+      name: "Elz Johnson, PT",
       detail: "Using HAVEN for 4 months"
     }
     
