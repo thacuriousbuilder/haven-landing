@@ -1,16 +1,16 @@
 
 export default function WhyWeeklySection() {
     return (
-      <section id="why-weekly" className="py-20 lg:py-32 bg-haven-cream">
+      <section id="why-weekly" className="py-20 lg:py-32 bg-haven-teal">
         <div className="container mx-auto px-4 lg:px-8">
           
           <div className="text-center max-w-4xl mx-auto mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold text-haven-teal mb-4">
+            <h2 className="text-4xl lg:text-5xl font-bold text-haven-white mb-4">
               Why HAVEN Focuses on Weekly Calories
               <br />
-              <span className="text-haven-graphite">(Not Daily Limits)</span>
+              <span className="text-haven-orange">(Not Daily Limits)</span>
             </h2>
-            <p className="text-lg text-haven-steel">
+            <p className="text-lg text-haven-white">
               Because one day doesn&apos;t tell the whole story
             </p>
           </div>
@@ -49,28 +49,28 @@ export default function WhyWeeklySection() {
           </div>
   
           
-          <div className="max-w-5xl mx-auto bg-gradient-to-br from-haven-teal to-haven-teal-dark rounded-3xl p-8 lg:p-12 text-white shadow-xl">
+          <div className="max-w-5xl mx-auto bg-white rounded-3xl p-8 lg:p-12 text-haven-graphite shadow-xl">
            
             <div className="flex items-start justify-between mb-8">
               <div className="flex-1">
                 <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-haven-graphite" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl lg:text-3xl font-bold mb-3 text-white">
+                <h3 className="text-2xl lg:text-3xl font-bold mb-3 text-haven-graphite">
                   HAVEN adjusts daily targets automatically
                 </h3>
-                <p className="text-white/90 text-lg leading-relaxed max-w-2xl">
+                <p className="text-haven-graphite/90 text-lg leading-relaxed max-w-2xl">
                   Instead of locking you into a rigid daily limit, HAVEN works with a weekly calorie budget. If one day runs higher, HAVEN automatically adjusts the remaining days so you can still hit your weekly target, without stress or overcorrection.
                 </p>
               </div>
-              <a href="#" className="hidden lg:flex items-center gap-2 text-white/90 hover:text-white text-sm font-medium whitespace-nowrap ml-8">
+              {/* <a href="#" className="hidden lg:flex items-center gap-2 text-haven-graphite/90 hover:text-white text-sm font-medium whitespace-nowrap ml-8">
                 The magic happens here
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
-              </a>
+              </a> */}
             </div>
   
            
@@ -78,7 +78,7 @@ export default function WhyWeeklySection() {
              
               <div className="grid grid-cols-7 gap-2 lg:gap-3 mb-2">
                 {['M', 'T', 'W', 'T', 'F', 'S', 'S'].map((day, idx) => (
-                  <div key={idx} className="text-center text-sm font-medium text-white/70">
+                  <div key={idx} className="text-center text-sm font-medium text-haven-graphite/70">
                     {day}
                   </div>
                 ))}
@@ -88,12 +88,12 @@ export default function WhyWeeklySection() {
               <div className="grid grid-cols-7 gap-2 lg:gap-3 items-end" style={{ height: '180px' }}>
                 
                 <div className="flex flex-col justify-end h-full">
-                  <div className="bg-white rounded-t-lg" style={{ height: '88%' }}></div>
+                  <div className="bg-haven-teal rounded-t-lg" style={{ height: '88%' }}></div>
                 </div>
                 
                 
                 <div className="flex flex-col justify-end h-full">
-                  <div className="bg-white rounded-t-lg" style={{ height: '92%' }}></div>
+                  <div className="bg-haven-teal v rounded-t-lg" style={{ height: '92%' }}></div>
                 </div>
                 
                 
@@ -118,21 +118,21 @@ export default function WhyWeeklySection() {
                 
                
                 <div className="flex flex-col justify-end h-full">
-                  <div className="bg-blue-300 rounded-t-lg" style={{ height: '90%' }}></div>
+                  <div className="bg-haven-orange  rounded-t-lg" style={{ height: '90%' }}></div>
                 </div>
               </div>
   
            
               <div className="grid grid-cols-7 gap-2 lg:gap-3 mt-2">
                 {['88%', '92%', '120%', '75%', '80%', '88%', '90%'].map((pct, idx) => (
-                  <div key={idx} className="text-center text-xs font-medium text-white/80">
+                  <div key={idx} className="text-center text-xs font-medium text-haven-graphite/80">
                     {pct}
                   </div>
                 ))}
               </div>
   
              
-              <p className="text-center text-sm text-white/80 mt-6">
+              <p className="text-center text-sm text-haven-graphite/80 mt-6">
                 Wednesday went over? HAVEN automatically rebalances the rest of your week.
               </p>
             </div>
@@ -156,8 +156,8 @@ export default function WhyWeeklySection() {
           </div>
             
         <div className="max-w-5xl mx-auto mt-8">
-          <div className="bg-haven-black rounded-2xl p-6 md:p-8 lg:p-10">
-            <h3 className="text-xl md:text-2xl font-bold text-white text-center mb-6 md:mb-8">
+          <div className="bg-haven-white rounded-2xl p-6 md:p-8 lg:p-10">
+            <h3 className="text-xl md:text-2xl font-bold text-haven-graphite text-center mb-6 md:mb-8">
               What This Means for You
             </h3>
             
@@ -167,33 +167,33 @@ export default function WhyWeeklySection() {
                 <svg className="w-5 h-5 text-haven-teal flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span className="text-white/90 text-sm md:text-base">One higher-calorie day doesn&apos;t derail progress</span>
+                <span className="text-haven-graphite/90 text-sm md:text-base">One higher-calorie day doesn&apos;t derail progress</span>
               </div>
               
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 text-haven-teal flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span className="text-white/90 text-sm md:text-base">You don&apos;t need to obsess over daily numbers</span>
+                <span className="text-haven-graphite/90 text-sm md:text-base">You don&apos;t need to obsess over daily numbers</span>
               </div>
               
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 text-haven-teal flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span className="text-white/90 text-sm md:text-base">Flexibility is built into the plan</span>
+                <span className="text-haven-graphite/90 text-sm md:text-base">Flexibility is built into the plan</span>
               </div>
               
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 text-haven-teal flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span className="text-white/90 text-sm md:text-base">Consistency happens naturally over the week</span>
+                <span className="text-haven-graphite/90 text-sm md:text-base">Consistency happens naturally over the week</span>
               </div>
             </div>
 
             
-            <p className="text-center text-white/80 text-sm md:text-base leading-relaxed px-2">
+            <p className="text-center text-haven-graphite/90 text-sm md:text-base leading-relaxed px-2">
               That&apos;s why HAVEN tracks calories{" "}
               <span className="text-haven-teal font-semibold">weekly</span>
               {" "}— and adapts{" "}

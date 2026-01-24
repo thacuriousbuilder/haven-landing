@@ -11,7 +11,7 @@ export default function Header() {
           <Link href="/">
           <div className="flex items-center">
             <Image
-              src="/images/Logo3.svg"
+              src="/images/HAVEN.svg"
               alt="HAVEN"
               width={200}
               height={40}

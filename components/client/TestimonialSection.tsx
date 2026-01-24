@@ -22,14 +22,14 @@ export default function TestimonialsSection() {
     ];
   
     return (
-      <section className="py-20 lg:py-32 bg-haven-cream">
+      <section className="py-20 lg:py-32 bg-haven-teal">
         <div className="container mx-auto px-4 lg:px-8">
           
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold text-haven-teal mb-4">
+            <h2 className="text-4xl lg:text-5xl font-bold text-haven-white mb-4">
               Real people, real progress
             </h2>
-            <p className="text-xl text-haven-steel">
+            <p className="text-xl text-haven-white">
               Join HAVEN and start reaching your goals!
             </p>
           </div>

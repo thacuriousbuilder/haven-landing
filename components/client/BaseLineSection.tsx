@@ -1,7 +1,7 @@
 
 export default function BaselineSection() {
     return (
-      <section id="how-it-works" className="py-20 lg:py-32 bg-gradient-to-br from-haven-teal to-haven-teal-dark relative overflow-hidden">
+      <section id="how-it-works" className="py-20 lg:py-32 bg-haven-cream relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
           <div className="absolute top-40 left-20 w-96 h-96 bg-white rounded-full blur-3xl"></div>
           <div className="absolute bottom-40 right-20 w-96 h-96 bg-white rounded-full blur-3xl"></div>
@@ -9,16 +9,16 @@ export default function BaselineSection() {
   
         <div className="container mx-auto px-4 lg:px-8 relative">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center gap-2 bg-haven-black/20 backdrop-blur-sm text-haven-teal px-4 py-2 rounded-full text-sm font-medium mb-6">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               First Step with HAVEN
             </div>
-            <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">
+            <h2 className="text-4xl lg:text-5xl font-bold text-haven-graphite mb-4">
               The 7-Day Baseline
             </h2>
-            <p className="text-xl text-white/90 max-w-3xl mx-auto">
+            <p className="text-xl text-haven-graphite max-w-3xl mx-auto">
               Before setting goals, HAVEN learns <span className="text-haven-yellow font-semibold">your</span> eating pattern. No judgment, no limits,just understanding.
             </p>
           </div>
@@ -63,16 +63,16 @@ export default function BaselineSection() {
            
             <div className="space-y-6">
               <div>
-                <h3 className="text-2xl font-bold text-white mb-3">
+                <h3 className="text-2xl font-bold text-haven-graphite mb-3">
                   You can&apos;t optimize what you don&apos;t understand
                 </h3>
-                <p className="text-white/90 leading-relaxed">
+                <p className="text-haven-graphite/90 leading-relaxed">
                   Most apps start with generic formulas and ask you to change immediately. HAVEN starts by understanding your real-life first.
                 </p>
               </div>
   
              
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6">
+              <div className="bg-white backdrop-blur-sm border border-white/20 rounded-xl p-6">
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 bg-red-500/40 rounded-lg flex items-center justify-center flex-shrink-0">
                     <svg className="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -80,8 +80,8 @@ export default function BaselineSection() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-bold text-white mb-2">Traditional Apps</h4>
-                    <p className="text-white/80 text-sm leading-relaxed">
+                    <h4 className="font-bold text-haven-graphite mb-2">Traditional Apps</h4>
+                    <p className="text-haven-graphite text-sm leading-relaxed">
                       Generic formulas, immediate restrictions, ignore your lifestyle.
                     </p>
                   </div>
@@ -89,7 +89,7 @@ export default function BaselineSection() {
               </div>
   
              
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6">
+              <div className="bg-white backdrop-blur-sm border border-white/20 rounded-xl p-6">
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 bg-haven-cream/50 rounded-lg flex items-center justify-center flex-shrink-0">
                     <svg className="w-5 h-5 text-haven-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -97,8 +97,8 @@ export default function BaselineSection() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-bold text-white mb-2">HAVEN&apos;s Approach</h4>
-                    <p className="text-white/80 text-sm leading-relaxed">
+                    <h4 className="font-bold text-haven-graphite mb-2">HAVEN&apos;s Approach</h4>
+                    <p className="text-haven-graphite text-sm leading-relaxed">
                       Learn your real patterns, build around your lifestyle, sustainable from day one
                     </p>
                   </div>
