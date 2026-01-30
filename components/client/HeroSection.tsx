@@ -28,7 +28,7 @@ export default function HeroSection() {
                 </span>
               </div>
               <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-haven-graphite">
-               Cheat days are part of the{" "} <span className="text-haven-teal font-extrabold">plan.</span>
+               &quot;Cheat&quot; days are part of the{" "} <span className="text-haven-teal font-extrabold">plan.</span>
               </h1>
 
             
