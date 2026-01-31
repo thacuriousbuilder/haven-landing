@@ -67,7 +67,7 @@ export default function FooterSection() {
               <h4 className="font-bold text-lg mb-4 text-white">Legal</h4>
               <ul className="space-y-3">
                 <li>
-                  <Link href="" className="text-white/70 hover:text-white transition-colors">
+                  <Link href="/privacy" className="text-white/70 hover:text-white transition-colors">
                     Privacy Policy
                   </Link>
                 </li>
