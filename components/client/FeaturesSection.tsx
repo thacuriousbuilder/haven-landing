@@ -79,10 +79,10 @@ export default function FeaturesSection() {
               </div>
               <div>
                 <h3 className="text-lg font-bold text-haven-white mb-2">
-                  Plan Cheat Days
+                  Plan Treat Days
                 </h3>
                 <p className="text-haven-white leading-relaxed">
-                  Integrate cheat days directly into your weekly plan. HAVEN accounts for them automatically, so you stay on track guilt-free.
+                  Integrate treat days directly into your weekly plan. HAVEN accounts for them automatically, so you stay on track guilt-free.
                 </p>
               </div>
             </div>
