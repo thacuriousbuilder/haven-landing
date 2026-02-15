@@ -5,7 +5,7 @@ export default function TestimonialsSection() {
         rating: 5,
         quote: "Thinking weekly instead of daily completely changed how I approach food.",
         name: "Sarah Martinez",
-        detail: "Using HAVEN for 1 months, lost 10lbs"
+        detail: "Using HAVEN for 1 months, lost 8lbs"
       },
       {
         rating: 5,

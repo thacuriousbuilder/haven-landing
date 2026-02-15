@@ -19,7 +19,7 @@ export default function BaselineSection() {
               The 7-Day Baseline
             </h2>
             <p className="text-xl text-haven-graphite max-w-3xl mx-auto">
-              Before setting goals, HAVEN learns <span className="text-haven-yellow font-semibold">your</span> eating pattern. No judgment, no limits,just understanding.
+              Before setting goals, HAVEN learns <span className="text-haven-yellow font-semibold">your</span> eating and activity pattern to get your actual maintenance calories. No judgment, no limits, just understanding.
             </p>
           </div>
   
@@ -55,7 +55,7 @@ export default function BaselineSection() {
               
               <div className="bg-haven-orange/10 border border-haven-orange/20 rounded-xl p-4">
                 <p className="text-sm text-haven-graphite">
-                  <span className="font-semibold">No limits.</span> No corrections. Just eat normally and log what feels comfortable.
+                  <span className="font-semibold">No limits.</span> No pressure. Just track how you eat and move normally.
                 </p>
               </div>
             </div>
@@ -99,7 +99,7 @@ export default function BaselineSection() {
                   <div>
                     <h4 className="font-bold text-haven-graphite mb-2">HAVEN&apos;s Approach</h4>
                     <p className="text-haven-graphite text-sm leading-relaxed">
-                      Learn your real patterns, build around your lifestyle, sustainable from day one
+                      Learn your real patterns, build around your lifestyle, sustainable from day one.
                     </p>
                   </div>
                 </div>
@@ -111,7 +111,7 @@ export default function BaselineSection() {
           <div className="max-w-6xl mx-auto bg-haven-white rounded-2xl p-8 lg:p-12">
             <div className="text-center mb-8">
               <h3 className="text-2xl lg:text-3xl font-bold text-haven-graphite mb-3">
-                Building your personal eating fingerprint
+                Building your personal plan
               </h3>
               <p className="text-haven-steel text-lg">
                 During the baseline, HAVEN maps your unique patterns to create a plan that actually fits your life.
@@ -141,7 +141,7 @@ export default function BaselineSection() {
                 </div>
                 <h4 className="font-bold text-haven-graphite mb-2">Natural Variability</h4>
                 <p className="text-haven-steel text-sm">
-                  How your eating naturally fluctuates day-to-day
+                  How your eating and activity naturally fluctuates day-to-day
                 </p>
               </div>
   
@@ -152,7 +152,7 @@ export default function BaselineSection() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                   </svg>
                 </div>
-                <h4 className="font-bold text-haven-graphite mb-2">Cheat Points</h4>
+                <h4 className="font-bold text-haven-graphite mb-2">Treat Points</h4>
                 <p className="text-haven-steel text-sm">
                   When and how you naturally enjoy higher-calorie days
                 </p>
@@ -169,7 +169,7 @@ export default function BaselineSection() {
                   Weekly calorie targets
                 </span>
                 <span className="bg-haven-teal/10 text-haven-teal px-4 py-2 rounded-full text-sm font-medium">
-                  Cheat-day allocation
+                  Treat-day allocation
                 </span>
                 <span className="bg-haven-teal/10 text-haven-teal px-4 py-2 rounded-full text-sm font-medium">
                   Personalized adjustments

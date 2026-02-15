@@ -10,7 +10,7 @@ export default function HeroSection() {
 
   return (
     <>
-      <section className="relative bg-haven-cream overflow-hidden">
+      <section className="relative bg-haven-teal overflow-hidden">
       
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-10 w-64 h-64 bg-white rounded-full blur-3xl"></div>
@@ -27,12 +27,12 @@ export default function HeroSection() {
                   ✨ Enjoy Food, Hit Your Goals
                 </span>
               </div>
-              <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-haven-graphite">
-               &quot;Cheat&quot; days are part of the{" "} <span className="text-haven-teal font-extrabold">plan.</span>
+              <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-haven-cream">
+              <span className="text-haven-cream font-extrabold">TREAT</span> <span className="text-haven-orange line-through">&quot;Cheat&quot;</span> days are part of the{" "}
+                <span className="text-haven-cream ">plan.</span>
               </h1>
-
             
-              <p className="text-xl lg:text-2xl text-haven-graphite/90 leading-relaxed max-w-xl">
+              <p className="text-xl lg:text-2xl text-haven-cream/90 leading-relaxed max-w-xl">
                 HAVEN is a weekly calorie tracker that fits your lifestyle. Make sustainable progress—guilt-free.
               </p>
 
@@ -72,8 +72,8 @@ export default function HeroSection() {
                   />
                 </div>
                 <div>
-                  <div className="font-semibold text-haven-graphite">Join users who have already signed up for early access</div>
-                  <div className="text-sm text-haven-graphite">Tracking smarter, living better</div>
+                  <div className="font-semibold text-haven-cream">Join users who have already signed up for early access</div>
+                  <div className="text-sm text-haven-cream">Tracking smarter, living better</div>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@ export default function HeroSection() {
                     
                     <Image 
                       src="/images/Plan.svg" 
-                      alt="HAVEN Plan Cheat Days"
+                      alt="HAVEN Plan Treat Days"
                       width={200}
                       height={200}
                       className="w-full h-auto"
