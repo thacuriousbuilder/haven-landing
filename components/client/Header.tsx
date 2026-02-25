@@ -2,7 +2,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Header() {
+type HeaderProps = {
+  logoSrc?: string;
+};
+
+export default function Header({ logoSrc = "/images/Logo3.svg" }: HeaderProps) {
   return (
     <header className="absolute top-0 left-0 right-0 z-50">
       <div className="container mx-auto px-4 lg:px-8">
@@ -11,7 +15,7 @@ export default function Header() {
           <Link href="/">
           <div className="flex items-center">
             <Image
-              src="/images/Logo3.svg"
+              src={logoSrc}
               alt="HAVEN"
               width={200}
               height={40}

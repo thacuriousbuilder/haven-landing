@@ -1,4 +1,4 @@
-// app/privacy/page.tsx
+
 "use client";
 
 import { useState } from "react";
@@ -20,7 +20,7 @@ export default function PrivacyPage() {
 
   return (
     <main className="min-h-screen bg-haven-cream">
-      <Header />
+      <Header logoSrc="/images/HAVEN.svg" />
       
       {/* Hero Section */}
       <div className=" pt-32 pb-20">
