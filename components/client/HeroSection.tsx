@@ -27,13 +27,16 @@ export default function HeroSection() {
                   ✨ Enjoy Food, Hit Your Goals
                 </span>
               </div>
-              <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-haven-cream">
-              <span className="text-haven-cream font-extrabold">TREAT</span> <span className="text-haven-orange line-through">&quot;Cheat&quot;</span> days are part of the{" "}
-                <span className="text-haven-cream ">plan.</span>
-              </h1>
-            
+                  <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-haven-cream">
+                  <span className="text-haven-cream font-extrabold">Stop obsessing over </span>
+                  <span className="text-haven-orange">daily calories.</span>
+                  <br />
+                </h1>
+                <h2>  <span className="text-haven-cream text-3xl font-extrabold">Balance your week instead! </span>
+                <span className="text-haven-orange"></span></h2>
+                
               <p className="text-xl lg:text-2xl text-haven-cream/90 leading-relaxed max-w-xl">
-                HAVEN is a weekly calorie tracker that fits your lifestyle. Make sustainable progress—guilt-free.
+              HAVEN is flexible dieting for real life. Make progress without the guilt.
               </p>
 
               
@@ -73,7 +76,7 @@ export default function HeroSection() {
                 </div>
                 <div>
                   <div className="font-semibold text-haven-cream">Join users who have already signed up for early access</div>
-                  <div className="text-sm text-haven-cream">Tracking smarter, living better</div>
+                  {/* <div className="text-sm text-haven-cream">Progress without the guilt.</div> */}
                 </div>
               </div>
             </div>
