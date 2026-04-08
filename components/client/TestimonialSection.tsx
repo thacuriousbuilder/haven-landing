@@ -11,7 +11,7 @@ export default function TestimonialsSection() {
         rating: 5,
         quote: "HAVEN feels more practical than other trackers I’ve used. Weekly planning makes it easier to stay consistent around meetings, travel, and social dinners.",
         name: "James Chen",
-        detail: "Using HAVEN for 2 months, lost 12lbs"
+        detail: "Using HAVEN for 2 months, lost 6lbs"
       },
       {
         rating: 5,

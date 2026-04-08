@@ -1,4 +1,4 @@
-// app/articles/[slug]/page.tsx
+
 
 import { getArticle } from "@/lib/articles";
 import { notFound } from "next/navigation";
