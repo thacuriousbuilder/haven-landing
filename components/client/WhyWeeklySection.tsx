@@ -1,16 +1,16 @@
 
 export default function WhyWeeklySection() {
     return (
-      <section id="why-weekly" className="py-20 lg:py-32 bg-haven-teal">
+      <section id="why-weekly" className="py-20 lg:py-32 bg-haven-cream">
         <div className="container mx-auto px-4 lg:px-8">
           
           <div className="text-center max-w-4xl mx-auto mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold text-haven-white mb-4">
+            <h2 className="text-4xl lg:text-5xl font-bold text-haven-graphite mb-4">
               Why HAVEN Focuses on Weekly Calories
               <br />
               <span className="text-haven-orange">(Not Daily Limits)</span>
             </h2>
-            <p className="text-lg text-haven-white">
+            <p className="text-lg text-haven-graphite">
               Because one day doesn&apos;t tell the whole story
             </p>
           </div>

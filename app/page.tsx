@@ -8,6 +8,7 @@ import CoachingSection from "@/components/client/CoachingSection";
 import TestimonialsSection from "@/components/client/TestimonialSection";
 import FinalCTASection from "@/components/client/FinalSection";
 import FooterSection from "@/components/client/FooterSection";
+import JournalSection from "@/components/client/JournalSection";
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <WhyWeeklySection />
-      <BaselineSection />
+      <JournalSection />
       <FeaturesSection/>
       <CoachingSection/>
       <TestimonialsSection/>

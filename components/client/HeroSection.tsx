@@ -89,7 +89,7 @@ export default function HeroSection() {
                   <div className="bg-haven-cream rounded-[2.5rem] aspect-[9/19] overflow-hidden flex items-center justify-center p-4">
                     
                     <Image 
-                      src="/images/Plan.svg" 
+                      src="/images/Weekly.svg" 
                       alt="HAVEN Plan Treat Days"
                       width={200}
                       height={200}
