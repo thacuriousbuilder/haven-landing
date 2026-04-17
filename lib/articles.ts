@@ -50,95 +50,167 @@ export type Article = {
     },
     {
       slug: "bank-calories-for-the-weekend",
-      title: "How to Bank Calories for the Weekend",
+      title: "How to Plan for the Weekend Without Falling Off Track",
       subtitle: "Planning ahead for social events is one of the most effective strategies for long-term success.",
       publishedAt: "March 15, 2026",
       readingTime: "3 min read",
       category: "Tips",
       content: `
-  Weekends are where most calorie plans fall apart. Social dinners, brunches, drinks with friends, the situations that make life enjoyable are also the ones that make rigid daily tracking nearly impossible.
-  
-  But there's a simple strategy that changes this entirely: banking calories.
-  
-  **What Is Calorie Banking?**
-  
-  Calorie banking means deliberately eating a little under your daily target earlier in the week so you have extra room when you need it most. Think of it like a savings account, small deposits on quieter days create a buffer for the moments that matter.
-  
-  If your weekly budget is 14,000 calories and you eat 1,700 per day Monday through Thursday instead of 2,000, you've saved 1,200 calories by Friday. That's a generous dinner out, a few drinks, or a proper dessert, without touching your overall progress.
-  
-  **How to Do It Practically**
-  
-  The key is to bank calories without under-eating to the point of misery. A 200-300 calorie reduction per day is barely noticeable in practice, smaller portions, a lighter lunch, skipping an afternoon snack. Over four days, that adds up to 800-1,200 calories of flexibility.
-  
-  Here's what a banking week might look like:
-  
-  - Monday through Thursday: eat 200 calories under your daily target
-  - Friday: use your banked 800 calories however you like
-  - Saturday: back to your normal daily target
-  - Sunday: comfortable, no restriction needed
-  
-  The total for the week stays the same. Your body doesn't know the difference. But your social life, and your relationship with food improves dramatically.
-  
-  **What to Watch Out For**
-  
-  Banking works best when it's intentional, not reactive. The goal is to plan ahead, not to skip meals in a panic because you overate the night before. That kind of restriction-compensation cycle is stressful and unsustainable.
-  
-  Also worth noting: banking calories doesn't mean the saved calories disappear into a void. If you bank 800 calories for Friday dinner and then eat 1,200 extra, you've overspent. The math still matters — banking just makes the math work in your favor.
-  
-  **HAVEN Makes This Automatic**
-  
-  HAVEN's weekly budget model is built for exactly this. When you log your food each day, you can see how your week is tracking in real time. Planning a big dinner? HAVEN shows you exactly how much room you have and helps you plan earlier days accordingly.
-  
-  Treat days — planned in advance — adjust your weekly targets automatically so the numbers always add up. No mental math required.
-  
-  The result is a week that feels flexible and a plan that actually holds.
+    Weekends are where most calorie plans fall apart. Social dinners, brunches, drinks with friends, the situations that make life enjoyable are also the ones that don’t fit neatly into rigid daily targets.
+    
+    The problem isn’t the weekend.
+    
+    It’s trying to treat every day the same.
+    
+    But there’s a better way to approach this: planning your week with those moments in mind.
+    
+    **A Better Way to Think About It**
+    
+    Most people approach calories as a daily limit. Stay under, you’re on track. Go over, you’ve failed.
+    
+    That works until life gets social.
+    
+    Instead, think of your week as a whole.
+    
+    You’re not trying to “eat less” during the week. You’re being more intentional with your choices so you can fully enjoy the moments that matter later.
+    
+    Not restriction. Just awareness.
+    
+    **What This Looks Like in Practice**
+    
+    Let’s say you have plans on Friday.
+    
+    Earlier in the week:
+
+    - You keep things simple
+    - You eat in a way that feels steady and in control
+    - You don’t overdo meals that aren’t that important
+    
+    That might look like:
+
+    - Choosing a lighter lunch because you’re not that hungry
+    - Skipping something you don’t really care about
+    - Avoiding the “just because it’s there” snacks
+    
+    Nothing forced. Nothing extreme.
+    
+    Over a few days, those small decisions naturally create room.
+    
+    So when Friday comes, you can go out, eat what you want, and enjoy it, without feeling like you’re off track.
+    
+    **How a Week Flows**
+    
+    Here’s what that rhythm looks like:
+    
+    - Monday through Thursday: eat normally, stay aware, keep things simple
+    - Friday: enjoy your plans without overthinking
+    - Saturday: flexible, social, no pressure to be perfect
+    - Sunday: reset into your usual routine
+    
+    The structure is still there, it just fits your life better.
+    
+    **What to Watch Out For**
+    
+    This only works when it’s intentional, not reactive.
+    
+    The goal isn’t to:
+
+    - Skip meals after overeating
+    - “Make up” for yesterday
+    - Over-restrict during the week
+    
+    That leads to the same cycle most people get stuck in.
+    
+    Also, awareness matters.
+    
+    You’re not ignoring your intake, you’re choosing where it matters most.
+    
+    **HAVEN Makes This Automatic**
+    
+    HAVEN is built around this exact idea.
+    
+    Instead of forcing every day to look the same, it helps you see your week in context.
+    
+    - You know what’s coming up
+    - You can plan around it
+    - Your budget adjusts as you go
+    
+    Treat days aren’t something you earn.
+    
+    They’re something you plan for.
+    
+    The result is a week that feels natural, and a system you can actually stick to.
       `,
     },
     {
       slug: "psychology-of-flexible-dieting",
       title: "The Psychology of Flexible Dieting",
-      subtitle: "Rigid food rules often backfire. Research shows flexible approaches lead to better long-term outcomes.",
+      subtitle: "Rigid food rules often backfire. Flexible approaches lead to better long-term outcomes.",
       publishedAt: "March 15, 2026",
       readingTime: "5 min read",
       category: "Science",
-      content: `For decades, the dominant dieting model was built on restriction. Eliminate certain foods. Follow strict rules. Measure everything precisely. The logic seemed sound: more structure means more control, which should mean better results.
-
-The evidence points in a different direction.
-
-**The Paradox of Rigid Rules**
-
-Studies on eating behavior consistently find that strict, inflexible food rules are linked to worse outcomes, not better ones. People who follow rigid diets report more preoccupation with food, more episodes of overeating, and greater distress and guilt around eating.
-
-A big part of this is psychological. When a food is forbidden, it often becomes more alluring, a pattern sometimes described by "ironic process" effects, where trying not to think about something makes it more prominent in your mind. Applied to eating, prohibition fuels obsession.
-
-Rigid rules also create a harsh pass/fail dynamic. Every meal is either "on plan" or "off plan." When you inevitably go off plan because life happens, the emotional response is disproportionate. That's when the what-the-hell effect kicks in: "I've already blown it," so you give up entirely and overeat far beyond what the original slip would have justified.
-
-**What Flexible Restraint Looks Like**
-
-Flexible dietary restraint operates differently. Instead of dividing foods into "allowed" and "forbidden," it focuses on overall patterns and quantities across time. No single food is inherently off-limits, and no single meal can make or break your progress. The target is a sustainable average, not flawless adherence.
-
-Research on flexible versus rigid restraint has found that people with a more flexible mindset tend to have lower BMI, fewer binge-eating episodes, and better mood and body-image outcomes than those leaning on strict, all-or-nothing rules even when their total intake is similar. The difference is not only what they eat, but how they think about eating.
-
-Other work shows that when people deliberately allow themselves small, planned amounts of previously "forbidden" foods, cravings for those foods often decrease over time. Permission, paradoxically, reduces urgency and desire.
-
-**The Role of Self-Compassion**
-
-One of the strongest psychological predictors of long-term dietary success is how you respond to setbacks. People who treat lapses with self-compassion, acknowledging the slip without catastrophizing it are much more likely to return to their usual habits quickly than those who respond with harsh self-criticism.
-
-This isn't just feel-good advice. Self-criticism tends to activate your threat and stress systems, increasing anxiety, making urges feel stronger, and narrowing your ability to make calm, deliberate choices. Self-compassion, by contrast, supports a sense of safety and perspective, which makes it easier to problem-solve and re-engage with your plan.
-
-In day-to-day terms, the story you tell yourself after a tough meal matters enormously. "I went over today; I'll adjust tomorrow" leads to a very different next week than "I've ruined everything." The facts are the same. The trajectory is not.
-
-**Why This Shapes HAVEN**
-
-HAVEN was designed from the ground up around the psychology of flexible restraint. The weekly budget model exists specifically to remove the daily pass/fail framing of traditional tracking. No single day can be a failure, only a data point in a longer trend.
-
-The baseline week, HAVEN's opening seven days of non-judgmental observation reduces the pressure to "be perfect" from day one. You simply track while the app learns your patterns, instead of being thrown straight into restriction. That lower anxiety helps prevent the early stress response that derails many attempts before they start.
-
-Treat days are planned, not shameful. Overages are absorbed and distributed across the week, not punished. The language throughout HAVEN is intentionally calm and non-judgmental, because how you feel about your progress is as important for long-term success as the numbers themselves.
-
-Sustainable change doesn't come from flawless obedience to rigid rules. It comes from a flexible system that can bend with real life, and from a kinder relationship with yourself when things don't go exactly to plan.`,
-    },
+      content: `For decades, dieting has been built on restriction. Eliminate certain foods. Follow strict rules. Measure everything precisely. The logic seems straightforward: more structure should lead to better results.
+    
+    In practice, it often does the opposite.
+    
+    **The Paradox of Rigid Rules**
+    
+    Research on eating behavior consistently shows that strict, inflexible rules are linked to worse outcomes. People who rely on rigid diets tend to experience more preoccupation with food, more episodes of overeating, and greater guilt and stress around eating.
+    
+    Part of this is psychological. When something is labeled "off-limits," it often becomes more desirable. Trying not to think about a food makes it more mentally present, not less. Over time, restriction fuels obsession.
+    
+    Rigid rules also create a pass/fail dynamic. Every meal is either "on plan" or "off plan." When you inevitably go off plan, the response is often disproportionate. This is where the what-the-hell effect shows up: "I've already blown it," so the day (or week) gets written off entirely.
+    
+    A small deviation turns into a much larger one.
+    
+    **What Flexible Restraint Looks Like**
+    
+    Flexible dieting takes a different approach. Instead of dividing foods into "good" and "bad," it focuses on overall patterns across time.
+    
+    - No single food is off-limits  
+    - No single meal determines your progress  
+    - The goal is consistency, not perfection  
+    
+    Research comparing flexible and rigid approaches shows that people who eat more flexibly tend to have lower BMI, fewer binge-like episodes, and better mood and body image, even when total intake is similar.
+    
+    The difference isn’t just what they eat. It’s how they think about eating.
+    
+    Other research shows that when people allow themselves small, planned amounts of previously "forbidden" foods, cravings often decrease over time. Permission, paradoxically, reduces urgency.
+    
+    **The Role of Self-Compassion**
+    
+    One of the strongest predictors of long-term success is how people respond to setbacks.
+    
+    People who practice self-compassion, acknowledging a slip without overreacting, are much more likely to return to their normal habits quickly. Those who respond with harsh self-criticism are more likely to spiral.
+    
+    This isn’t just mindset, it’s physiological. Self-criticism increases stress and makes urges feel stronger. Self-compassion creates enough psychological space to make better decisions.
+    
+    In practice, this looks like:
+    
+    "I went over today, I’ll adjust moving forward."
+    
+    Instead of:
+    
+    "I ruined everything."
+    
+    Same situation. Very different outcome.
+    
+    **Why This Shapes HAVEN**
+    
+    HAVEN is built around the psychology of flexible dieting.
+    
+    Instead of rigid daily rules, it focuses on your week as a whole.
+    
+    - No single day defines success or failure  
+    - Overages don’t need punishment, just context  
+    - Treat days are planned, not something to feel guilty about  
+    
+    The experience is intentionally calm and non-judgmental, because long-term progress isn’t just about numbers. It’s about how you feel while you’re making them.
+    
+    Sustainable change doesn’t come from strict rules. It comes from a system that can adapt to real life, and a mindset that doesn’t fall apart when things aren’t perfect.
+    
+    Because consistency isn’t built on control. It’s built on flexibility.`,
+    }
   ];
   
   export function getArticle(slug: string): Article | undefined {
