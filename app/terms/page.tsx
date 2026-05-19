@@ -321,10 +321,10 @@ export default function TermsPage() {
                     If you have any questions about these Terms of Use, please reach out to us.
                   </p>
                   <a
-                    href="mailto:tryhaven1@gmail.com"
+                    href="mailto:support@tryhaven.co"
                     className="inline-flex items-center gap-2 bg-haven-orange text-white px-8 py-4 rounded-xl font-semibold hover:bg-opacity-90 transition-all shadow-lg"
                   >
-                    Contact Us at tryhaven1@gmail.com
+                    Contact Us at support@tryhaven.co
                   </a>
                 </div>
               </section>

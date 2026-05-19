@@ -3,6 +3,7 @@
 
 import { useState } from "react";
 import SignupModal from "./SignupModal";
+import Image from "next/image";
 
 export default function FinalCTASection() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -31,12 +32,21 @@ export default function FinalCTASection() {
               </p>
 
           
-              <button
-                onClick={() => setIsModalOpen(true)}
-                className="bg-haven-orange text-white px-12 py-4 rounded-xl font-semibold hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl text-lg inline-block "
-              >
-                Get early access
-              </button>
+              <div className="flex justify-center">
+                <a
+                  href="https://apps.apple.com/us/app/haven-weekly-calorie-tracker/id6759538536"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                   >
+                  <Image
+                    src="/images/AppStore.svg"
+                    alt="Download on the App Store"
+                    width={200}
+                    height={53}
+                    className="hover:opacity-90 transition-opacity"
+                  />
+                </a>
+              </div>
 
             </div>
           </div>

@@ -39,8 +39,8 @@ export default function SupportPage() {
               For questions, bugs, or feedback — email us directly and we&apos;ll respond within 24 hours.
             </p>
             
-             <a href="mailto:tryhaven01@gmail.com"
-              className="inline-flex items-center gap-2 bg-haven-teal text-white px-6 py-3 rounded-xl font-semibold hover:bg-opacity-90 transition-all shadow-lg" > tryhaven01@gmail.com
+             <a href="mailto:support@tryhaven.co"
+              className="inline-flex items-center gap-2 bg-haven-teal text-white px-6 py-3 rounded-xl font-semibold hover:bg-opacity-90 transition-all shadow-lg" > support@tryhaven.co
             </a>
           </section>
 

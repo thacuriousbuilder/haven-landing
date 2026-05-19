@@ -41,12 +41,19 @@ export default function HeroSection() {
 
               
               <div className="pt-4">
-                <button
-                  onClick={() => setIsModalOpen(true)}
-                  className="bg-haven-orange text-white px-8 py-4 rounded-xl font-semibold hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl text-lg"
-                >
-                 Get early access
-                </button>
+                <a
+                href="https://apps.apple.com/us/app/haven-weekly-calorie-tracker/id6759538536"
+                target="_blank"
+                rel="noopener noreferrer"
+                 >
+                <Image
+                  src="/images/AppStore.svg"
+                  alt="Download on the App Store"
+                  width={200}
+                  height={53}
+                  className="hover:opacity-90 transition-opacity"
+                />
+              </a>
               </div>
 
              
@@ -75,7 +82,7 @@ export default function HeroSection() {
                   />
                 </div>
                 <div>
-                  <div className="font-semibold text-haven-cream">Join users who have already signed up for early access</div>
+                  <div className="font-semibold text-haven-cream">Join users who are experiencing the benefits of having a plan that fits their life!</div>
                   {/* <div className="text-sm text-haven-cream">Progress without the guilt.</div> */}
                 </div>
               </div>
