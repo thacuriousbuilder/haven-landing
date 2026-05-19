@@ -25,7 +25,7 @@ function Shell({ children }: { children: React.ReactNode }) {
         <p className="text-center text-white/60 text-sm mt-6">
           Having trouble? Contact support at{' '}
           <a href="mailto:support@tryhaven.co" className="text-white underline">
-           tryhaven1@gmail.com
+           support@tryhaven.co
           </a>
         </p>
       </div>

@@ -342,7 +342,7 @@ export default function PrivacyPage() {
                   <p className="text-haven-graphite">
                     <strong>To exercise your rights:</strong> Use in-app settings or contact us at{" "}
                     <a href="mailto:support@tryhaven.co" className="text-haven-teal font-semibold hover:underline">
-                     tryhaven1@gmail.com
+                     support@tryhaven.co
                     </a>
                   </p>
                 </div>
@@ -416,7 +416,7 @@ export default function PrivacyPage() {
                     href="mailto:support@tryhaven.co"
                     className="inline-flex items-center gap-2 bg-haven-orange text-white px-8 py-4 rounded-xl font-semibold hover:bg-opacity-90 transition-all shadow-lg"
                   >
-                    Contact Us at tryhaven1@gmail.com
+                    Contact Us at support@tryhaven.co
                   </a>
                 </div>
               </section>
